@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ignitro Projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="replace_title()">
+    <div class="title" id="project-name">
+        <h1>Franciscan Ministries</h1>
+    </div>
+
+    <div id="print-here">
+    </div>
+    <p>&nbsp;</p>
+    <script>
+    var project_name = "Franciscan";
+    document.getElementById("project-name").innerHTML = "<h1>" + project_name + "</h1>";
+    function replace_title() {
+        /*currentTitle = document.getElementById("active").innerHTML;
+        document.title = currentTitle + ' | Ignitro Projects'; */
+    }
+    
+    var project_obj ={
+        "project":[
+        {
+            "doc_title" : "04-FM-Individual-Location-Sub-Page-WITH-FORM",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "04-FM-Individual-Location-Sub-Page",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "05-FM-Individual-Location-Gallery-Page",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "08-FM-Careers",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "12-FM-Event-Archive",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "13-FM-Event-Individual",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "01-FM-Home-Page-copy",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "02-FM-Community-Archive",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "03-FM-Individual-Community-Page",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "11-FM-Blog-Individual",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "15-FM-News-Individual-copy",
+            "active" : false,
+            "started": true
+        },
+        {
+            "doc_title" : "06-FM-Default-Living-Options-Individual",
+            "active" : false,
+            "started": true
+        }
+      ]
+    }
+
+    var count = Object.keys(project_obj.project).length;
+    var long_str = '<ol>';
+    for (i = 0; i < count; i++) { 
+        var doc_title = project_obj.project[i].doc_title;
+        var active = project_obj.project[i].active;
+        var started = project_obj.project[i].started;
+
+        if(active == true){
+            console.log('this is true');
+        }
+
+        long_str += '<li class="'+ active +'">' + '<a id="active" href="'+doc_title+'.php" target="_blank">' + doc_title + '</a></li>';
+    }
+
+    document.getElementById('print-here').innerHTML = long_str;
+
+    </script>
+</body>
+
+</html>
