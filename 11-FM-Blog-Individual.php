@@ -39,7 +39,7 @@ Tweet</a>
             </ul>
             
             <!-- Start Form -->
-        <?php include 'includes/generic-form.php'; ?>
+            <?php include 'includes/generic-form.php'; ?>
 
         </div>
     </div>
