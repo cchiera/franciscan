@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row individual-location-container2">
             <div class="col-md-4">
-                <blockquote>
+                <blockquote class="first">
                     <p>Lernatur aut odit aut fugit, sed dolor sit amet sequi quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet sequi nesciunt.</p>
                     <h2>Current Resident</h2>
                 </blockquote>

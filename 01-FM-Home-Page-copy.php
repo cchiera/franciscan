@@ -24,7 +24,7 @@
                                         <option value="3">Selection</option>
                                         <option value="4">Selection</option>
                                     </select>
-                                    <a href="#" class="bluebutton center">Search</a>
+                                    <a href="#" class="bluebutton">Search</a>
                                 </div>
                             </div>
                         </form>
@@ -163,7 +163,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut liquip. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
             </p>
             <div class="center">
-                <a href="#" class="bluebutton center">View All Locations</a>
+                <p>&nbsp;</p>
+                <a href="#" class="bluebutton-2 center">View All Locations ></a>
             </div>
         </div>
         <div class="col-md-8 home-map">
@@ -200,7 +201,7 @@
                 </div>
             </div>
             <div class="row">
-                <a href="#" class="bluebutton center">View More Testimonials</a>
+                <a href="#" class="bluebutton-2">View All Locations ></a>
             </div>
         </div>
         <!-- fpo start -->

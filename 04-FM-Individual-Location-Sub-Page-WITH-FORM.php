@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="center">
-                        <a href="#" class="blue-button-bigger">Contact Us&nbsp;<i class="fas fa-angle-right"></i></a>
+                        <a href="#" class="bluebutton">Contact Us&nbsp;<i class="fas fa-angle-right"></i></a>
                     </div>
                 </form>
             </div>
@@ -75,9 +75,9 @@
         </div>
         <div class="col-md-4">
             <?php include 'includes/sidebar-nav.php'; ?>
-            <div class="white-button-container">
+            <div class="button-wrapper center">
                 <a href="#" class="white-button">Request a Brochure <i class="fas fa-angle-right"></i></a>
-                <a href="#" class="white-button last-white-button">View Floor Plans <i class="fas fa-angle-right"></i></a>
+                <a href="#" class="white-button">View Floor Plans <i class="fas fa-angle-right"></i></a>
             </div>
         </div>
     </div>

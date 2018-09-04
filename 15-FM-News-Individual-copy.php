@@ -1,7 +1,9 @@
 <?php include 'includes/header.php'; ?>
 <!-- Section 1: Tab System -->
+<div class="container-fluid">
+    <hr class="header-hr">
+</div>
 <div class="individual-section-1 container wrapper-center">
-    <hr>
     <!-- need to make 100% -->
     <div class="row">
         <div class="col-md-12 content">

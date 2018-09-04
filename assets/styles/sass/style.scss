@@ -86,8 +86,8 @@ a.brown-button {
 
 a.brown-button:hover {
     @include button-control(
-        $brand-brown,                           /*      background    */
-        #FFFFFF,                   /*      color         */
+        $brand-brown,                   /*      background    */
+        #FFFFFF,                        /*      color         */
         2px solid #FFFFFF,              /*      border        */
         280px,                          /*      width         */
         40px,                           /*      height        */
@@ -147,6 +147,21 @@ a.bluebutton {
         $brand-blue-light!important,    /*      background    */
         #FFF,                           /*      color         */
         none,                           /*      border        */
+        240px,                          /*      width         */
+        40px,                           /*      height        */
+        9px 10px 0 10px,                /*      padding       */
+        20px 0,                         /*      margin        */
+        1.2em,                          /*      font-size     */
+        500,                            /*      font-weight   */
+        none)                           /*      float         */
+}
+
+a.bluebutton:hover {
+    @include button-control(
+        #FFF!important,                 /*      background    */
+        $brand-blue-light!important,    /*      color         */
+        $brand-blue-light 2px solid!important,
+        /*      border        */
         240px,                          /*      width         */
         40px,                           /*      height        */
         9px 10px 0 10px,                /*      padding       */
@@ -235,6 +250,20 @@ a.bluebutton-sm-top1{
     @include button-control(
         $brand-blue-light,              /*      background    */
         #FFF,                           /*      color         */
+        1px solid #FFF,                 /*      border        */
+        145px,                          /*      width         */
+        25px,                           /*      height        */
+        3px 10px 0 10px,                /*      padding       */
+        0 10px 0 10px,                  /*      margin        */
+        .9em,                           /*      font-size     */
+        500,                            /*      font-weight   */
+        left)                           /*      float         */
+}
+
+a.bluebutton-sm-top1:hover,a.bluebutton-sm-top2:hover{
+    @include button-control(
+        white,                          /*      background    */
+        $brand-blue-light,              /*      color         */
         1px solid #FFF,                 /*      border        */
         145px,                          /*      width         */
         25px,                           /*      height        */
@@ -383,6 +412,12 @@ a.whitebutton {
     box-shadow: none!important;
     border-radius: 50%;
 }
+
+input,
+select,
+input::placeholder,
+option::placeholder,
+textarea::placeholder{color:$gray-text!important;}
 
 div.button-wrapper {
     float: right;
@@ -539,7 +574,7 @@ div.container-fluid.footerbottom {
 div.footerfluid {
     background: #FFF;
     div.menu-footer1-container {
-        padding: 40px;
+        padding: 40px 40px 40px 55px;
     }
     p.main-footertitle strong {
         color: $brand-blue;
@@ -715,7 +750,7 @@ div.form-size-main {
 div.footer-form-width {
     width: 330px;
     float: right;
-    padding: 20px!important;
+    padding: 20px 20px 5px 20px!important;
     margin: 0px;
 }
 
@@ -1024,19 +1059,6 @@ div.individual-section-2 {
         font-family: $font-family-serif;
         font-size: $p-font-size;
     }
-    a.bluebutton:hover {
-    @include button-control(
-        $brand-blue!important,          /*      background    */
-        #FFF!important,                 /*      color         */
-        none,                           /*      border        */
-        240px,                          /*      width         */
-        40px,                           /*      height        */
-        9px 10px 0 10px,                /*      padding       */
-        20px 0 0 0,                     /*      margin        */
-        1.2em,                          /*      font-size     */
-        500,                            /*      font-weight   */
-        none)                           /*      float         */
-    }
 }
 
 div.individual-section-2-wrapper {
@@ -1070,6 +1092,7 @@ div.wrapper-center {
 div.individual-page-search {
     border-radius: 12px;
 }
+
 
 
 
@@ -1275,6 +1298,7 @@ div.blog-main3 {
 
 
 
+
 /* Animation Buttons */
 
 div.circles-home {
@@ -1404,17 +1428,17 @@ div.individual-community-left2 {
     }
 }
 
-div.individual-community-right2 h1 {
-    padding: 20px 40px;
-    font-weight: normal
-}
-
-div.individual-community-right2 p {
-    padding: 0px 40px 0px 40px;
-}
-
-div.individual-community-right2 {
+div.individual-community-right2{
     position: relative!important;
+    h1 {
+        padding: 20px 40px;
+        font-weight: normal;
+        font-size: $h1-font-size;
+    }
+    p {
+        padding: 0px 40px 0px 40px;
+        font-size: $p-font-size;
+    }
 }
 
 div.individual-community-right2:before,
@@ -1450,7 +1474,7 @@ div.green-icons p {
 
 div.green-icons p>i {
     color: $green_icon;
-    font-size: $h2-font-size;
+    font-size:$p-font-size;
     margin: 0 10px 0 10px;
     display: inline-block;
 }
@@ -1465,25 +1489,26 @@ div.green-icons li {
 
 div.individual-community-right2-stamp {
     float: left;
-}
 
-div.individual-community-right2-stamp p {
-    padding: 20px 0 20px 20px;
-    font-size: 2em;
-    color: $brand-blue;
-}
+    p {
+        padding: 20px 0 20px 20px;
+        font-size: 2em;
+        color: $brand-blue;
+        line-height: 32px;
+    }
 
-div.individual-community-right2-stamp p>strong {
-    font-weight: $semi-bold
-}
+    p>strong {
+        font-weight: $semi-bold
+    }
 
-div.individual-community-right2-stamp img {
-    width: 100px;
-    padding: 20px 0 20px 0;
-}
+    img {
+        width: 100px;
+        padding: 20px 0 20px 0;
+    }
 
-div.individual-community-right2-stamp a {
-    color: green
+    a {
+        color: green
+    }
 }
 
 span.individual-community-address-align {
@@ -1541,7 +1566,7 @@ p.individual-community-learn-more>a {
 }
 
 span.bump-address-icon {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 div.indivual-com-hero-wrapper {
@@ -1564,31 +1589,6 @@ div.indivual-com-hero-wrapper h1 {
 
 
 div.header-form-communities {
-    form {
-        div.row {
-            div.col-md-12 {
-                p.footer-form-title {
-                    font-size: 1.7em;
-                    font-weight:$semi-bold;
-                    text-align: center;
-                    color: $brand-blue;
-                }
-            }
-        }
-        div.row {
-            div.col-md-6.footer-form-size-right {
-                padding:0;
-                input{width: 100%!important}
-            }
-            div.col-md-6.footer-form-size-left {
-                padding:0px 0 0 0;
-                input{width: 100%!important}
-            }
-            .footer-form-size-below {padding:0px 0 0 0!important;}
-        }
-    }
-}
-div.header-form-communities {
     position: absolute;
     background: rgba(255, 255, 255, 0.7);
     background-image: url("../../../assets/images/top-homepage-form-graphic.png");
@@ -1599,12 +1599,8 @@ div.header-form-communities {
     -moz-border-radius: 5px;
     border-radius: 5px;
     right: 0px;
-    top: 30px;
-    /*p.footer-form-title {
-        padding: 15px;
-        font-size: $h1-font-size-large
-        font-weight:;
-    }*/
+    top: 50px;
+
     select,
     input {
         margin: 0 0 5px 0px;
@@ -1612,12 +1608,56 @@ div.header-form-communities {
     textarea {
         height: 60px;
     }
+    form {
+        div.row {
+            div.col-md-12 {
+                p.footer-form-title {
+                    font-size: 1.7em;
+                    font-weight: $semi-bold;
+                    text-align: center;
+                    color: $brand-blue;
+                }
+            }
+        }
+        div.center {
+            .bluebutton {
+                margin: 10px 0px 0px 0px;
+            }
+        }
+        div.row {
+            div.col-md-6.footer-form-size-right {
+                padding: 0 5px 0 5px;
+                input {
+                    width: 100%!important
+                }
+            }
+            div.col-md-6.footer-form-size-left {
+                padding: 0px 5px 0 0px;
+                input {
+                    width: 100%!important
+                }
+            }
+            .footer-form-size-below {
+                padding: 0px 5px 0 5px!important;
+            }
+        }
+    }
 }
-
 
 div.individual-community-gallery-hero {
     background: url('../../../assets/images/individual-gallery.jpg');
-    height: 500px
+    height: 500px;
+    position: relative;
+    .white-button{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        background: #FFF;
+    }
+    .white-button:hover{
+        color: #FFFFFF;
+        background-color: $brand-blue-light;
+    }
 }
 
 div.individual-community-gallery-map {
@@ -1709,15 +1749,10 @@ div.event-archive-circles {
 h1.event-archive-content-h1 {
     color: $brand-blue;
     font-size: $h1-font-size;
-    margin-left: 15px
+    margin-left: 0px;
+    margin-bottom:0px;
+    margin-top: 10px
 }
-
-.mainlogo {
-    position: absolute;
-    bottom: -40px;
-    left: 10px;
-}
-
 .navfluid {
     height: 77px
 }
@@ -1726,7 +1761,7 @@ div.event-archive-content {
     div.row {
         div.col-md-2.content {
             div.event-archive-circles {
-                margin: 20px 20px 0 15px;
+                margin: 20px 20px 0 -5px;
                 box-shadow: none!important;
             }
         }
@@ -1788,7 +1823,9 @@ div.row.individual-location-container2 {
     }
 }
 
-div.row.individual-location-container2 div.col-md-4 blockquote.first p{padding-left: 0px}
+div.row.individual-location-container2 div.col-md-4 blockquote.first p {
+    padding-left: 0px
+}
 
 div.event-archive-content {
     padding: 0 0 30px 0;
@@ -1860,23 +1897,19 @@ div.sidebar-nav {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+div.default-living-indiv-bg1{
+    background-image: url(../../../assets/images/Default-Living-Options-pic1.jpg);
+}
+div.default-living-indiv-bg2{
+    background-image: url(../../../assets/images/Default-Living-Options-pic2.jpg);
+}
+div.default-living-indiv-bg3{
+    background-image: url(../../../assets/images/Default-Living-Options-pic3.jpg);
+}
 
 div.default-living-indiv-bg1,
 div.default-living-indiv-bg2,
 div.default-living-indiv-bg3 {
-    background-image: url(http://fpoimg.com/300x250);
     background-repeat: no-repeat;
     min-height: 280px;
     display: table;
@@ -1992,14 +2025,16 @@ div.individual-section-1 {
         background-position: 0px -80px;
     }
 }
-
-@media(min-width: 991px) {
     #header-form-main-mobile {
         display: none;
     }
-}
 
-@media(max-width: 991px) {
+@media(max-width: 1200px) {
+    .mainlogo {
+        position: absolute;
+        bottom: -25px;
+        left: 10px;
+    }
     div.event-archive-circles,
     div.home-circle-7,
     div.home-circle-8,
@@ -2248,9 +2283,35 @@ div.individual-section-1 {
     p.phone-footer {
         padding: 0px!important;
     }
-    blockquote.first{padding:0 40px 40px 50px!important}
-    .button-wrapper{float: none;margin-top:20px;}
-    div.footer-form-width{width:100%;padding:0px!important;}
+    blockquote.first {
+        padding: 0 40px 40px 50px!important
+    }
+    .button-wrapper {
+        float: none;
+        margin-top: 20px;
+    }
+    div.footer-form-width {
+        width: 100%;
+        padding: 0px!important;
+    }
+    div.row.individual-location-container2 div.col-md-4 h2{
+        float: none;
+        text-align: center;
+    }
+    div.footer-margin-mobile{margin-bottom: 60px}
+    div.button-wrapper{
+        float:none!important;
+        text-align:center;
+        clear:both!important;
+        padding-top: 15px
+    }
+    div.container-fluid.footerbottom div.container div.row div.col-md-2 img.accessibility-icon{
+        float: none;
+        display: block;
+        margin: 0 auto!important;
+        padding-top: 5px;
+        clear: both;
+    }
 }
 
 @media(max-width: 1100px) {

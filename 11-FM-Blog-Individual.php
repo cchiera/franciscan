@@ -27,7 +27,7 @@ Tweet</a>
                     <button type="submit" placeholder="Search" name="">Search</button>
                 </form>
             </div>
-            <br>
+            <br clear="all">
 
             <ul class="individual-blog-sidebar-list">
                 <li><a href="#">Health &amp; Wellness</a>
@@ -39,48 +39,8 @@ Tweet</a>
             </ul>
             
             <!-- Start Form -->
-            <div class='footer-form'>
-                <form method='post' enctype='multipart/form-data'>
-                    <div class="row">
-                        <div class="col-md-12">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" class="medium" placeholder="First Name*" aria-required="true" aria-invalid="false">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="medium" placeholder="Last Name*" aria-required="true" aria-invalid="false">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" class="medium" placeholder="Phone*" aria-required="true" aria-invalid="false">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="medium" placeholder="Email*" aria-required="true" aria-invalid="false">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <select class="medium" aria-required="true" aria-invalid="false">
-                                <option value="" selected="selected" class="">Choose a Community or Service?</option>
-                                <option value="0">Selection</option>
-                                <option value="1">Selection</option>
-                                <option value="2">Selection</option>
-                                <option value="3">Selection</option>
-                                <option value="4">Selection</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
-                        </div>
-                    </div>
-                    <a href="#" class="bluebutton">Lorem Ipsum</a>
-                </form>
-            </div>
+        <?php include 'includes/generic-form.php'; ?>
+
         </div>
     </div>
 </div>

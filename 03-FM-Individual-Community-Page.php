@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 footer-form-size-below">
                                 <select class="form-control" aria-required="true" aria-invalid="false">
                                     <option value="" selected="selected" class="">Choose a Community or Service?</option>
                                     <option value="0">Selection</option>
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 footer-form-size-below">
                                 <textarea class="form-control" rows="5" id="comment" placeholder="Questions/Comments"></textarea>
                             </div>
                         </div>
@@ -83,9 +83,9 @@
                         <p><i class="fas fa-phone"></i>1-800-123-4567</p>
                     </li>
                     <li>
-                        <p><i class="fas fa-location-arrow"></i>203 Franciscan Dr,
+                        <p><i class="fas fa-map-marker-alt"></i>203 Franciscan Dr,
                             <br><span class="bump-address-icon">Crown Point, IN 46307</span></p>
-                        <p><i class="far fa-envelope"></i>Email Us&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i> <a href="#"><strong>Directions</strong></a></p>
+                        <p><i class="far fa-envelope"></i>Email Us&nbsp;<i class="fas fa-location-arrow"></i><a href="#"><strong>Directions</strong></a></p>
                         <br>
                     </li>
                 </ul>
@@ -210,15 +210,14 @@
         <div class="row home-section-2 center home-section-2-extra-padding">
             <p>Request a brochure for more information on St. Anthony Village
                 <br>and see how Franciscan Ministries is <span class="redefining">Redefining</span> senior living.</p>
-            <div class="center">
-                <a href="#" class="bluebutton center">Request a Brochure</a>
+            <div class="center" style="margin: 0 auto">
+                <a href="#" class="bluebutton">Request a Brochure</a>
             </div>
         </div>
     </div>
 </div>
 <div class="container-fluid individual-community-gallery-hero">
-                    <a href="#" class="whitebutton center">Request a Brochure</a>
-
+    <a href="#" class="white-button center">Request a Brochure</a>
 </div>
 <div class="container-fluid menu-fluid-green">
     <div class="container">

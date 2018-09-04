@@ -49,7 +49,7 @@
 <div class="container-fluid individual-community-gallery-map">
 </div>
 <div class="container community-archive-main">
-    <h1>All communities</h1>
+    <h2>All communities</h2>
     <div class="row cloneme community-archive">
         <div class="col-md-3">
             <div class="individual-community-circle-tabs-shadow"></div>

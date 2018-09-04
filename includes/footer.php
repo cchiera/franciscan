@@ -1,21 +1,21 @@
 <!-- Footer Start -->
 <div class="container-fluid footerfluid">
-    <p class="footertitle"></p>
+    <p class="main-footertitle"></p>
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="row">
+                <div class="row footer-margin-mobile">
                     <div class="col-md-4 center">
                         <p><img class="img-responsive footer-logo center" src="assets/images/Franciscan-Logo.png" alt=""></p>
                         <p class="phone-footer"><a href="tel:(800) 524-6126">1-800-524-6126</a></p>
                         <p>
-                            <a href="" target="_blank"><i class="socialicon fab fa-facebook-f blue-brand"></i></a>
+                            <a href="#" target="_blank"><i class="socialicon fab fa-facebook-f blue-brand"></i></a>
                             <a href="" target="_blank"><i class="socialicon fab fa-pinterest blue-brand"></i></a>
                         </p>
                     </div>
-                    <div class="col-md-4 footer-padding">
-                        <p class="footertitle"><strong>Resources</strong></p>
-                        <div class="menu-footer1-container">
+                    <div class="col-md-4 menu-footer1-container">
+                        <p class="main-footertitle"><strong>Resources</strong></p>
+                        <div class="">
                             <ul class="footermenu">
                                 <li class="menu-item"><a href="#">Communities</a></li>
                                 <li class="menu-item"><a href="#">About Us</a></li>
@@ -26,9 +26,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <p class="footertitle"><strong style="font-weight: 900">Senior Care Options</strong></p>
-                        <div class="menu-footer1-container">
+                    <div class="col-md-4 menu-footer1-container">
+                        <p class="main-footertitle"><strong style="font-weight: 900">Senior Care Options</strong></p>
+                        <div class="">
                             <ul class="footermenu">
                                 <li class="menu-item"><a href="#">Independent Living</a></li>
                                 <li class="menu-item"><a href="#">Assisted Living</a></li>
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="center">
-                            <a href="#" class="bluebutton">Lorem Ipsum</a>
+                            <a href="#" class="bluebutton-2">Lorem Ipsum</a>
                         </div>
                     </form>
                 </div>
@@ -96,9 +96,7 @@
 <div class="container-fluid footerbottom">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-md-offset-2">
                 <p>11500 Theresa Drive Lemont, IL 60439 | 800-524-6126 | email.address@.com </p>
                 <p>&copy; Copyright 2018 | Privacy Policy | Disclaimer | Equal Housing | Site Map
                 </p>
@@ -114,6 +112,8 @@
 <!-- End Footer Bottom -->
 <script>
 $(function() {
+
+
     //declare function 
     $(".nav-tabs a").click(function() {
         $(this).tab('show');

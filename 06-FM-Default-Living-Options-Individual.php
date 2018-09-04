@@ -31,9 +31,13 @@
         <div class="col-md-4">
             <?php include 'includes/sidebar-nav.php'; ?>
             <?php include 'includes/generic-form.php'; ?>
-            <p>&nbsp;</p>
+            
+
+            <div class="button-wrapper">
             <a href="#" class="white-button">Request a Brochure <i class="fas fa-angle-right"></i></a>
             <a href="#" class="white-button">View Floor Plans <i class="fas fa-angle-right"></i></a>
+            </div>
+
         </div>
     </div>
 </div>
@@ -69,6 +73,7 @@
 
 <script type="text/javascript">
 $(function() {
+       $(".cloneme").clone().insertAfter(".target");
        $(".cloneme").clone().insertAfter(".target");
        $(".cloneme").clone().insertAfter(".target");
 });
