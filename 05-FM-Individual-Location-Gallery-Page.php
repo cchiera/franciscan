@@ -17,12 +17,14 @@
             </div>
         </div>
         <div class="col-md-4">
+            <div class="footer-form-2">
             <?php include 'includes/sidebar-nav.php'; ?>
             <?php include 'includes/generic-form.php'; ?>
             <div class="button-wrapper">
                 <a href="#" class="white-button">Request a Brochure <i class="fas fa-angle-right"></i></a>
                 <a href="#" class="white-button">View Floor Plans <i class="fas fa-angle-right"></i></a>
             </div>
+        </div>
         </div>
     </div>
 </div>

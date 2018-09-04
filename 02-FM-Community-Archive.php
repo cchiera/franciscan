@@ -19,7 +19,9 @@
             <p>Lernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consec</p>
         </div>
         <div class="col-md-5">
-            <?php include 'includes/generic-form.php'; ?>
+            <div class="footer-form-2">
+                <?php include 'includes/generic-form.php'; ?>
+            </div>
         </div>
     </div>
 </div>
