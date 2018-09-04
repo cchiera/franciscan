@@ -1,5 +1,4 @@
- <!-- Start Form -->
-                <div class='footer-form form-group form-width'>
+                <div class='footer-form form-group'>
                     <form method='post' enctype='multipart/form-data'>
                         <div class="row">
                             <div class="col-md-12">
@@ -23,7 +22,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 footer-form-size-center">
                                 <select class="form-control" aria-required="true" aria-invalid="false">
                                     <option value="" selected="selected" class="">Choose a Community or Service?</option>
                                     <option value="0">Selection</option>
@@ -35,12 +34,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
-                                <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <div class="col-md-12 footer-form-size-center">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Questions/Comments"></textarea>
                             </div>
                         </div>
                         <div class="center">
-                            <a href="#" class="bluebutton">Lorem Ipsum</a>
+                            <a href="#" class="bluebutton-2">Lorem Ipsum</a>
                         </div>
                     </form>
                 </div>

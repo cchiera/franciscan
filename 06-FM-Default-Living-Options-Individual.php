@@ -30,8 +30,10 @@
         </div>
         <div class="col-md-4">
             <?php include 'includes/sidebar-nav.php'; ?>
+
+            <div class="footer-form-2">
             <?php include 'includes/generic-form.php'; ?>
-            
+            </div>
 
             <div class="button-wrapper center">
             <a href="#" class="white-button">Request a Brochure <i class="fas fa-angle-right"></i></a>

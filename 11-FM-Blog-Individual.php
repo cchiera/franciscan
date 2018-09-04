@@ -19,7 +19,7 @@
             <a href="#" class="bluebutton-twitter icon-twitter"><i class="fab fa-twitter" aria-hidden="true"></i>
 Tweet</a>
         </div>
-        <div class="col-md-4 content padding-20">
+        <div class="col-md-4 col-sm-12 content padding-20">
             <div class="search-container">
                 <form action="/action_page.php">
                     <i class="fa fa-search"></i>
@@ -28,6 +28,7 @@ Tweet</a>
                 </form>
             </div>
             <br clear="all">
+
 
             <ul class="individual-blog-sidebar-list">
                 <li><a href="#">Health &amp; Wellness</a>
@@ -59,7 +60,7 @@ Tweet</a>
         </div>
         <div class="col-md-4">
             <div class="row related-posts-blog-wb">
-                <img src="http://via.placeholder.com/350x150" class="related-posts-img" alt="">
+                <img src="assets/images/blog-individual-related-1.jpg" class="related-posts-img" alt="">
                 <div class="related-posts-inner-wrapper">
                     <h2>
                         <img src="assets/images/time-clock.jpg" class="time-clock" alt=""> 
@@ -72,7 +73,7 @@ Tweet</a>
         </div>
         <div class="col-md-4">
             <div class="row related-posts-blog-wb">
-                <img src="http://via.placeholder.com/350x150" class="related-posts-img" alt="">
+                <img src="assets/images/blog-individual-related-2.jpg" class="related-posts-img" alt="">
                 <div class="related-posts-inner-wrapper">
                     <h2>
                         <img src="assets/images/time-clock.jpg" class="time-clock" alt=""> 5 Myths About Assisted Living
