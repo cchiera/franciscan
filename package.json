@@ -1,0 +1,27 @@
+{
+  "name": "franciscan",
+  "version": "1.0.0",
+  "description": "on new computer",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-clean-css": "^3.10.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cchiera/franciscan.git"
+  },
+  "author": "Chris Chiera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cchiera/franciscan/issues"
+  },
+  "homepage": "https://github.com/cchiera/franciscan#readme"
+}
